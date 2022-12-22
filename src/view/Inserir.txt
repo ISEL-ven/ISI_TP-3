@@ -1,0 +1,18 @@
+
+
+_ _  _ ____ ____ ____ _ ____    ___  ____ ___  ____ ____
+| |\ | [__  |___ |__/ | |__/    |  \ |__| |  \ |  | [__
+| | \| ___] |___ |  \ | |  \    |__/ |  | |__/ |__| ___]
+
+Opções -------------------------------------------------
+
+1 - Condutores (e condutor habilitado)
+2 - Cor de Veículo
+3 - Periodo Activo (escala de serviço condutores)
+4 - Clientes
+5 - Proprietário de viatura
+6 - Tipo de veículo
+7 - Veículo
+8 - Viagem (e cliente viagem)
+
+Escolha:

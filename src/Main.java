@@ -1,5 +1,10 @@
+import view.UserInterface;
+
 public class Main {
     public static void main(String[] args) {  // TODO
-        System.out.println("Quá, quá, quá!!!!!");
+        UserInterface userInterface = new UserInterface(true);
     }
+
+
+
 }
