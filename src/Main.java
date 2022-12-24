@@ -1,10 +1,8 @@
-import view.UserInterface;
+import controller.App;
 
 public class Main {
-    public static void main(String[] args) {  // TODO
-        UserInterface userInterface = new UserInterface(true);
+    public static void main(String[] args) {
+        App app = new App();
+        app.run();
     }
-
-
-
 }

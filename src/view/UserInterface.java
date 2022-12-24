@@ -10,10 +10,10 @@ import java.io.IOException;
 public class UserInterface {
     public UserInterface(boolean banner) {
         if (banner) showBanner();
-        showMenu();
-        showInsertsMenu();
+        //showMenu();
+        //showInsertsMenu();
     }
-    private void showBanner() {
+    public void showBanner() {
         try (
                 BufferedReader br = new BufferedReader(new FileReader("src/view/banner.txt"))) {
                 String line;
@@ -25,7 +25,7 @@ public class UserInterface {
         }
     }
     // show root menu
-    private void showMenu() {
+    public void showMenu() {
         try (
                 BufferedReader br = new BufferedReader(new FileReader("src/view/rootMenu.txt"))) {
             String line;
@@ -37,7 +37,7 @@ public class UserInterface {
         }
     }
     // 1 - branch INSERCOES
-    private void showInsertsMenu() {
+    public void showInsertsMenu() {
         try (
                 BufferedReader br = new BufferedReader(new FileReader("src/view/Inserir.txt"))) {
             String line;
