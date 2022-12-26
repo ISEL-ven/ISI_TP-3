@@ -1,0 +1,20 @@
+
+
+___  ____ ____ ____ _  _ _ ____ ____    ____ _ _  _ ___  _    ____ ____
+|__] |___ [__  |  | |  | | [__  |__|    [__  | |\/| |__] |    |___ [__
+|    |___ ___] |_\| |__| | ___] |  |    ___] | |  | |    |___ |___ ___]
+
+ Opções -------------------------------------------------------------
+
+  1 - Listar clientes
+  2 - Listar condutores
+  3 - Listar proprietários
+  4 - Listar veículos em serviço
+  5 - Listar veículos fora de serviço
+  6 - Listar viagens
+  7 - Contar clientes
+  8 - Contar condutores
+  9 - Contar proprietários
+ 10 - Contar veículos em serviço
+ 11 - Contar veículos fora de serviço
+ 12 - Contar viagens

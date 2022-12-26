@@ -7,12 +7,10 @@ _ _  _ ____ ____ ____ _ ____    ___  ____ ___  ____ ____
 Opções -------------------------------------------------
 
 1 - Condutores (e condutor habilitado)
-2 - Cor de Veículo
-3 - Periodo Activo (escala de serviço condutores)
-4 - Clientes
-5 - Proprietário de viatura
-6 - Tipo de veículo
-7 - Veículo
-8 - Viagem (e cliente viagem)
-
-Escolha:
+2 - Periodo Activo (escala de serviço condutores)
+3 - Clientes
+4 - Proprietário de viatura
+5 - Tipo de veículo
+6 - Veículo
+7 - Viagem (e cliente viagem)
+8 - Voltar

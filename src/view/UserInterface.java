@@ -3,55 +3,34 @@
 package view;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 public class UserInterface {
-    public UserInterface(boolean banner) {
-        if (banner) showBanner();
-        //showMenu();
-        //showInsertsMenu();
-    }
+    private String path = "src/view/";
+
+    public UserInterface() {}
+
     public void showBanner() {
-        try (
-                BufferedReader br = new BufferedReader(new FileReader("src/view/banner.txt"))) {
-                String line;
-                while ((line = br.readLine()) != null) {
-                    System.out.println(line);
-                }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
-    // show root menu
-    public void showMenu() {
-        try (
-                BufferedReader br = new BufferedReader(new FileReader("src/view/rootMenu.txt"))) {
+        try ( BufferedReader br = new BufferedReader(new FileReader("src/view/banner.txt"))) {
             String line;
-            while ((line = br.readLine()) != null) {
-                System.out.println(line);
-            }
+            while ((line = br.readLine()) != null) { System.out.println(line); }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-    // 1 - branch INSERCOES
-    public void showInsertsMenu() {
-        try (
-                BufferedReader br = new BufferedReader(new FileReader("src/view/Inserir.txt"))) {
+
+    public void showMenu(String filename) {
+        try ( BufferedReader br = new BufferedReader(new FileReader(path + filename))) {
             String line;
-            while ((line = br.readLine()) != null) {
-                System.out.println(line);
-            }
+            while ((line = br.readLine()) != null) { System.out.println(line); }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.print(" Escolha: ");
     }
-    // 2 - branch UPDATES
-    // 3 - branch SIMPLE QUERIES
-    // 4 - branch COMPLEX QUERIES
-    // 5 - EXIT
+
+    public void showExit() { System.out.println("\n Obrigado. Até à próxima.\n"); }
 
 
 

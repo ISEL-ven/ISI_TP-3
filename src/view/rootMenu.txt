@@ -1,10 +1,8 @@
 
 
-  Opções ------------------------------------------------------------
-  1 - Inserir dados (ex. novo cliente)
-  2 - Atualizar tabelas (ex. novo tipo de veículo)
-  3 - Pesquisa simples (ex. total de clientes, todos os condutores)
-  4 - Pesquisa complexa (ex. calcular horas, kms e custo por viatura)
-  5 - Sair
-
-  Escolha:
+ Opções ------------------------------------------------------------
+ 1 - Inserir dados (ex. novo cliente)
+ 2 - Atualizar tabelas (ex. novo tipo de veículo)
+ 3 - Pesquisa simples (ex. total de clientes, todos os condutores)
+ 4 - Pesquisa complexa (ex. calcular horas, kms e custo por viatura)
+ 5 - Sair
